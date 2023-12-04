@@ -1,0 +1,17 @@
+<mat-toolbar color = "secondary">
+    <span>Star Wars Characters</span>
+</mat-toolbar>
+
+<mat-list>
+    <mat-list-item *ngFor="let movie of movies">
+        <p mat-line> Character : {{movie.director}} </p>
+        <p mat-line> Gender : {{movie.year}} </p>
+        <p> Age : {{movie.title}} </p>
+    </mat-list-item>
+</mat-list>
+
+<ul *ngFor = "let movie of movies">
+    <p> Directed By : {{movie.director}} </p>
+    <p> Year : {{movie.year}} </p>
+    <p> Title : {{movie.title}} </p>
+</ul>

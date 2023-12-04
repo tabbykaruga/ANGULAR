@@ -1,0 +1,12 @@
+<mat-toolbar color = "secondary">
+    <span>Star Wars Characters</span>
+</mat-toolbar>
+
+<mat-list>
+    <mat-list-item *ngFor="let character of characters">
+        <p> Character : {{character.charactername}} </p>
+        <p> Gender : {{character.gender}} </p>
+        <p> Age : {{character.age}} </p>
+    </mat-list-item>
+</mat-list>
+
